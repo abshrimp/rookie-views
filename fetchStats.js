@@ -4,13 +4,10 @@ const { parseStringPromise } = require('xml2js');
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-// 中央値を計算するための関数
 function getMedian(arr) {
     if (arr.length === 0) return 0;
-    // 数値を小さい順（昇順）に並び替え
     arr.sort((a, b) => a - b);
     const mid = Math.floor(arr.length / 2);
-    // データの個数が偶数の場合は真ん中2つの平均、奇数の場合は真ん中の値を返す
     if (arr.length % 2 === 0) {
         return Math.round((arr[mid - 1] + arr[mid]) / 2);
     } else {
@@ -21,6 +18,11 @@ function getMedian(arr) {
 async function main() {
     const videos = JSON.parse(fs.readFileSync('videos.json', 'utf-8'));
     const groupStats = {};
+    
+    let globalTotalViews = 0;
+    let globalTotalMylists = 0;
+    const globalViewsArray = [];
+    const globalMylistsArray = [];
 
     console.log(`全 ${videos.length} 件のデータ取得を開始します...`);
 
@@ -35,21 +37,24 @@ async function main() {
                 const views = parseInt(thumb.view_counter[0], 10);
                 const mylists = parseInt(thumb.mylist_counter[0], 10);
 
+                // --- グループ別の集計 ---
                 if (!groupStats[video.group]) {
-                    // 平均計算用の合計値だけでなく、中央値計算用にすべての値を配列で保存する
                     groupStats[video.group] = { 
                         totalViews: 0, totalMylists: 0, count: 0,
                         viewsArray: [], mylistsArray: [] 
                     };
                 }
-
                 groupStats[video.group].totalViews += views;
                 groupStats[video.group].totalMylists += mylists;
                 groupStats[video.group].count += 1;
-                
-                // 配列に値を追加
                 groupStats[video.group].viewsArray.push(views);
                 groupStats[video.group].mylistsArray.push(mylists);
+                
+                // --- 全体の集計 ---
+                globalTotalViews += views;
+                globalTotalMylists += mylists;
+                globalViewsArray.push(views);
+                globalMylistsArray.push(mylists);
                 
                 console.log(`[${i + 1}/${videos.length}] 取得成功: ${video.videoId}`);
             } else {
@@ -62,14 +67,13 @@ async function main() {
         await sleep(300);
     }
 
+    // グループごとの結果を整形
     const resultList = Object.keys(groupStats).map(group => {
         const data = groupStats[group];
         return {
             group: parseInt(group, 10),
-            // 平均値
             avg_view_counter: Math.round(data.totalViews / data.count),
             avg_mylist_counter: Math.round(data.totalMylists / data.count),
-            // 中央値
             median_view_counter: getMedian(data.viewsArray),
             median_mylist_counter: getMedian(data.mylistsArray)
         };
@@ -77,8 +81,18 @@ async function main() {
 
     resultList.sort((a, b) => a.group - b.group);
 
+    // 全体の結果を整形
+    const globalStats = {
+        total_videos: globalViewsArray.length,
+        avg_view_counter: Math.round(globalTotalViews / globalViewsArray.length) || 0,
+        median_view_counter: getMedian(globalViewsArray),
+        avg_mylist_counter: Math.round(globalTotalMylists / globalMylistsArray.length) || 0,
+        median_mylist_counter: getMedian(globalMylistsArray)
+    };
+
     const outputData = {
         lastUpdated: new Date().toISOString(),
+        global: globalStats,
         stats: resultList
     };
 
