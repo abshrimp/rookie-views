@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disc別 平均再生・マイリスト数</title>
     <style>
-        body { font-family: sans-serif; margin: 20px; color: #333; }
-        table { border-collapse: collapse; width: 100%; max-width: 600px; margin-top: 15px; }
-        th, td { border: 1px solid #ccc; padding: 10px; text-align: right; }
+        /* font-size: 14px; を追加して全体を少し小さくしました */
+        body { font-family: sans-serif; margin: 20px; color: #333; font-size: 14px; }
+        h1 { font-size: 1.6em; margin-bottom: 10px; }
+        
+        table { border-collapse: collapse; width: 100%; max-width: 600px; margin-top: 10px; }
+        th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: right; } /* 余白も少し調整 */
         th { background-color: #f4f4f4; text-align: center; cursor: pointer; user-select: none; }
         th:hover { background-color: #e0e0e0; }
         td:first-child { text-align: center; font-weight: bold; }
-        .update-time { font-size: 0.9em; color: #666; margin-bottom: 20px; }
+        
+        .update-time { font-size: 0.85em; color: #666; margin-bottom: 15px; }
         .sort-icon { font-size: 0.8em; margin-left: 5px; color: #888; }
         
         /* リンクのデザイン */
@@ -43,13 +47,12 @@
 
     <script>
         let currentData = [];
-        let groupInfoMap = {}; // グループ情報を引き出しやすくするための辞書
+        let groupInfoMap = {};
         let currentSortKey = 'group';
         let isAscending = true;
 
         async function loadStats() {
             try {
-                // stats.json と groups.json を同時に取得する
                 const [statsResponse, groupsResponse] = await Promise.all([
                     fetch('stats.json?t=' + new Date().getTime()),
                     fetch('groups.json')
@@ -58,12 +61,10 @@
                 const statsData = await statsResponse.json();
                 const groupsData = await groupsResponse.json();
 
-                // groups.json のデータをグループ番号をキーにした辞書に変換
                 groupsData.forEach(item => {
                     groupInfoMap[item.group] = item;
                 });
 
-                // 最終更新日時の表示
                 const date = new Date(statsData.lastUpdated);
                 document.getElementById('update-time').textContent = 
                     `最終更新: ${date.toLocaleString('ja-JP')}`;
@@ -101,10 +102,7 @@
             tbody.innerHTML = ''; 
             
             currentData.forEach(item => {
-                // groupInfoMapから該当するグループの情報を取得
                 const groupInfo = groupInfoMap[item.group];
-                
-                // URLが存在しない場合のフォールバック（#）も設定
                 const mylistUrl = groupInfo && groupInfo.mylistUrl ? groupInfo.mylistUrl : '#';
 
                 const row = `<tr>
