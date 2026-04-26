@@ -64,7 +64,7 @@ async function main() {
             console.error(`[${i + 1}/${videos.length}] エラー: ${video.videoId}`, error.message);
         }
 
-        await sleep(300);
+        await sleep(200);
     }
 
     // グループごとの結果を整形
