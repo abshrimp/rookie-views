@@ -8,13 +8,20 @@
         body { font-family: sans-serif; margin: 20px; color: #333; }
         table { border-collapse: collapse; width: 100%; max-width: 600px; margin-top: 15px; }
         th, td { border: 1px solid #ccc; padding: 10px; text-align: right; }
-        /* ヘッダーをホバーしたときに色を変えてクリックできることをアピール */
         th { background-color: #f4f4f4; text-align: center; cursor: pointer; user-select: none; }
         th:hover { background-color: #e0e0e0; }
         td:first-child { text-align: center; font-weight: bold; }
         .update-time { font-size: 0.9em; color: #666; margin-bottom: 20px; }
-        /* 並び替えの矢印アイコンのスタイル */
         .sort-icon { font-size: 0.8em; margin-left: 5px; color: #888; }
+        
+        /* リンクのデザイン */
+        a.group-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a.group-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -35,24 +42,34 @@
     </table>
 
     <script>
-        // データを保持しておくための変数
         let currentData = [];
-        let currentSortKey = 'group'; // 現在ソートしているキー
-        let isAscending = true;       // 昇順かどうか
+        let groupInfoMap = {}; // グループ情報を引き出しやすくするための辞書
+        let currentSortKey = 'group';
+        let isAscending = true;
 
         async function loadStats() {
             try {
-                const response = await fetch('stats.json?t=' + new Date().getTime());
-                const data = await response.json();
+                // stats.json と groups.json を同時に取得する
+                const [statsResponse, groupsResponse] = await Promise.all([
+                    fetch('stats.json?t=' + new Date().getTime()),
+                    fetch('groups.json')
+                ]);
                 
-                const date = new Date(data.lastUpdated);
+                const statsData = await statsResponse.json();
+                const groupsData = await groupsResponse.json();
+
+                // groups.json のデータをグループ番号をキーにした辞書に変換
+                groupsData.forEach(item => {
+                    groupInfoMap[item.group] = item;
+                });
+
+                // 最終更新日時の表示
+                const date = new Date(statsData.lastUpdated);
                 document.getElementById('update-time').textContent = 
                     `最終更新: ${date.toLocaleString('ja-JP')}`;
 
-                // 取得したデータを変数に保存
-                currentData = data.stats;
+                currentData = statsData.stats;
                 
-                // テーブルの描画とアイコンの更新
                 renderTable();
                 updateSortIcons();
             } catch (error) {
@@ -61,37 +78,37 @@
             }
         }
 
-        // 並び替え処理
         function sortData(key) {
-            // 同じ列をクリックした場合は昇順・降順を切り替える
             if (currentSortKey === key) {
                 isAscending = !isAscending;
             } else {
-                // 違う列をクリックした場合はその列で昇順にする
                 currentSortKey = key;
                 isAscending = true;
             }
 
-            // 配列を並び替え
             currentData.sort((a, b) => {
                 if (a[key] < b[key]) return isAscending ? -1 : 1;
                 if (a[key] > b[key]) return isAscending ? 1 : -1;
                 return 0;
             });
 
-            // 画面を更新
             renderTable();
             updateSortIcons();
         }
 
-        // テーブルにデータを出力する処理
         function renderTable() {
             const tbody = document.getElementById('stats-body');
-            tbody.innerHTML = ''; // 一度中身をリセット
+            tbody.innerHTML = ''; 
             
             currentData.forEach(item => {
+                // groupInfoMapから該当するグループの情報を取得
+                const groupInfo = groupInfoMap[item.group];
+                
+                // URLが存在しない場合のフォールバック（#）も設定
+                const mylistUrl = groupInfo && groupInfo.mylistUrl ? groupInfo.mylistUrl : '#';
+
                 const row = `<tr>
-                    <td>Group ${item.group}</td>
+                    <td><a href="${mylistUrl}" target="_blank" class="group-link">Group ${item.group}</a></td>
                     <td>${item.avg_view_counter.toLocaleString()}</td>
                     <td>${item.avg_mylist_counter.toLocaleString()}</td>
                 </tr>`;
@@ -99,19 +116,14 @@
             });
         }
 
-        // 矢印アイコン（▲/▼）の表示を更新する処理
         function updateSortIcons() {
-            // すべてのアイコンを一度消す
             document.querySelectorAll('.sort-icon').forEach(icon => icon.textContent = '');
-            
-            // 現在ソート対象になっている列にだけアイコンをつける
             const activeIcon = document.getElementById(`icon-${currentSortKey}`);
             if (activeIcon) {
                 activeIcon.textContent = isAscending ? '▲' : '▼';
             }
         }
         
-        // 最初のデータ読み込み
         loadStats();
     </script>
 
