@@ -8,13 +8,13 @@
         body { font-family: sans-serif; margin: 20px; color: #333; font-size: 14px; }
         h1 { font-size: 1.6em; margin-bottom: 10px; }
         
-        table { border-collapse: collapse; width: 100%; max-width: 800px; margin-top: 10px; }
+        table { border-collapse: collapse; width: 100%; max-width: 800px; margin-top: 15px; }
         th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: right; }
         th { background-color: #f4f4f4; text-align: center; cursor: pointer; user-select: none; white-space: nowrap; }
         th:hover { background-color: #e0e0e0; }
         td:first-child { text-align: center; font-weight: bold; }
         
-        .update-time { font-size: 0.85em; color: #666; margin-bottom: 15px; }
+        .update-time { font-size: 0.85em; color: #666; margin-bottom: 10px; }
         .sort-icon { font-size: 0.8em; margin-left: 5px; color: #888; }
         
         a.group-link {
@@ -24,6 +24,18 @@
         a.group-link:hover {
             text-decoration: underline;
         }
+
+        .global-stats-box {
+            background-color: #eef6fc;
+            border: 1px solid #cce0f0;
+            border-radius: 6px;
+            padding: 12px 15px;
+            max-width: 770px;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .global-stats-title { font-weight: bold; margin-bottom: 5px; color: #004488; }
+        .global-val { font-weight: bold; font-size: 1.1em; color: #333; margin-right: 15px;}
     </style>
 </head>
 <body>
@@ -31,17 +43,19 @@
     <h1>Disc別 再生数データ</h1>
     <div class="update-time" id="update-time">最終更新: 読み込み中...</div>
 
+    <div class="global-stats-box" id="global-stats-box" style="display: none;"></div>
+
     <table>
         <thead>
             <tr>
                 <th onclick="sortData('group')">Disc <span id="icon-group" class="sort-icon"></span></th>
                 <th onclick="sortData('avg_view_counter')">平均再生 <span id="icon-avg_view_counter" class="sort-icon"></span></th>
-                <th onclick="sortData('median_view_counter')">中央値<span id="icon-median_view_counter" class="sort-icon"></span></th>
+                <th onclick="sortData('median_view_counter')">中央値 <span id="icon-median_view_counter" class="sort-icon"></span></th>
                 <th onclick="sortData('avg_mylist_counter')">平均マイリス <span id="icon-avg_mylist_counter" class="sort-icon"></span></th>
             </tr>
         </thead>
         <tbody id="stats-body">
-            </tbody>
+        </tbody>
     </table>
 
     <script>
@@ -67,6 +81,16 @@
                 const date = new Date(statsData.lastUpdated);
                 document.getElementById('update-time').textContent = 
                     `最終更新: ${date.toLocaleString('ja-JP')}`;
+
+                if (statsData.global) {
+                    const gBox = document.getElementById('global-stats-box');
+                    gBox.style.display = 'block';
+                    gBox.innerHTML = `
+                        <div class="global-stats-title">全動画 (${statsData.global.total_videos}件) の全体集計</div>
+                        再生数： 平均 <span class="global-val">${statsData.global.avg_view_counter.toLocaleString()}</span> 中央値 <span class="global-val">${statsData.global.median_view_counter.toLocaleString()}</span><br>
+                        マイリスト数： 平均 <span class="global-val">${statsData.global.avg_mylist_counter.toLocaleString()}</span> 中央値 <span class="global-val">${statsData.global.median_mylist_counter.toLocaleString()}</span>
+                    `;
+                }
 
                 currentData = statsData.stats;
                 
