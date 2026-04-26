@@ -4,14 +4,26 @@ const { parseStringPromise } = require('xml2js');
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
+// 中央値を計算するための関数
+function getMedian(arr) {
+    if (arr.length === 0) return 0;
+    // 数値を小さい順（昇順）に並び替え
+    arr.sort((a, b) => a - b);
+    const mid = Math.floor(arr.length / 2);
+    // データの個数が偶数の場合は真ん中2つの平均、奇数の場合は真ん中の値を返す
+    if (arr.length % 2 === 0) {
+        return Math.round((arr[mid - 1] + arr[mid]) / 2);
+    } else {
+        return arr[mid];
+    }
+}
+
 async function main() {
-    // 1. 動画リストの読み込み
     const videos = JSON.parse(fs.readFileSync('videos.json', 'utf-8'));
     const groupStats = {};
 
     console.log(`全 ${videos.length} 件のデータ取得を開始します...`);
 
-    // 2. 0.3秒間隔でAPIからデータを取得
     for (let i = 0; i < videos.length; i++) {
         const video = videos[i];
         try {
@@ -24,12 +36,20 @@ async function main() {
                 const mylists = parseInt(thumb.mylist_counter[0], 10);
 
                 if (!groupStats[video.group]) {
-                    groupStats[video.group] = { totalViews: 0, totalMylists: 0, count: 0 };
+                    // 平均計算用の合計値だけでなく、中央値計算用にすべての値を配列で保存する
+                    groupStats[video.group] = { 
+                        totalViews: 0, totalMylists: 0, count: 0,
+                        viewsArray: [], mylistsArray: [] 
+                    };
                 }
 
                 groupStats[video.group].totalViews += views;
                 groupStats[video.group].totalMylists += mylists;
                 groupStats[video.group].count += 1;
+                
+                // 配列に値を追加
+                groupStats[video.group].viewsArray.push(views);
+                groupStats[video.group].mylistsArray.push(mylists);
                 
                 console.log(`[${i + 1}/${videos.length}] 取得成功: ${video.videoId}`);
             } else {
@@ -39,25 +59,24 @@ async function main() {
             console.error(`[${i + 1}/${videos.length}] エラー: ${video.videoId}`, error.message);
         }
 
-        // API負荷対策：必ず0.3秒待機する
         await sleep(300);
     }
 
-    // 3. グループごとの平均を計算
     const resultList = Object.keys(groupStats).map(group => {
         const data = groupStats[group];
         return {
             group: parseInt(group, 10),
+            // 平均値
             avg_view_counter: Math.round(data.totalViews / data.count),
-            avg_mylist_counter: Math.round(data.totalMylists / data.count)
+            avg_mylist_counter: Math.round(data.totalMylists / data.count),
+            // 中央値
+            median_view_counter: getMedian(data.viewsArray),
+            median_mylist_counter: getMedian(data.mylistsArray)
         };
     });
 
-    // グループ番号順にソート
     resultList.sort((a, b) => a.group - b.group);
 
-    // 4. 結果をJSONファイルとして保存（フロントエンドで読み込むため）
-    // いつ取得したデータかわかるように最終更新日時を付与
     const outputData = {
         lastUpdated: new Date().toISOString(),
         stats: resultList
