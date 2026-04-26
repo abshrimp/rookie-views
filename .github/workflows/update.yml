@@ -2,8 +2,8 @@ name: Update Niconico Stats
 
 on:
   schedule:
-    # 5分ごとに実行
-    - cron: '*/5 * * * *'
+    # 6分ごとに実行
+    - cron: '*/6 * * * *'
   workflow_dispatch:
 
 permissions:
