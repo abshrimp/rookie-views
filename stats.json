@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T09:12:55.145Z",
+  "lastUpdated": "2026-04-28T09:18:56.831Z",
   "global": {
     "total_videos": 713,
     "avg_view_counter": 393,
@@ -10,21 +10,21 @@
   "stats": [
     {
       "group": 1,
-      "avg_view_counter": 860,
+      "avg_view_counter": 861,
       "avg_mylist_counter": 29,
       "median_view_counter": 671,
       "median_mylist_counter": 30
     },
     {
       "group": 2,
-      "avg_view_counter": 543,
+      "avg_view_counter": 544,
       "avg_mylist_counter": 21,
       "median_view_counter": 387,
       "median_mylist_counter": 20
     },
     {
       "group": 3,
-      "avg_view_counter": 635,
+      "avg_view_counter": 636,
       "avg_mylist_counter": 28,
       "median_view_counter": 551,
       "median_mylist_counter": 24
@@ -80,7 +80,7 @@
     },
     {
       "group": 11,
-      "avg_view_counter": 266,
+      "avg_view_counter": 267,
       "avg_mylist_counter": 12,
       "median_view_counter": 215,
       "median_mylist_counter": 11
@@ -115,21 +115,21 @@
     },
     {
       "group": 16,
-      "avg_view_counter": 383,
+      "avg_view_counter": 384,
       "avg_mylist_counter": 19,
       "median_view_counter": 235,
       "median_mylist_counter": 13
     },
     {
       "group": 17,
-      "avg_view_counter": 535,
+      "avg_view_counter": 536,
       "avg_mylist_counter": 18,
       "median_view_counter": 204,
       "median_mylist_counter": 11
     },
     {
       "group": 18,
-      "avg_view_counter": 341,
+      "avg_view_counter": 342,
       "avg_mylist_counter": 11,
       "median_view_counter": 203,
       "median_mylist_counter": 10
@@ -192,7 +192,7 @@
     },
     {
       "group": 27,
-      "avg_view_counter": 492,
+      "avg_view_counter": 493,
       "avg_mylist_counter": 20,
       "median_view_counter": 246,
       "median_mylist_counter": 13
@@ -234,7 +234,7 @@
     },
     {
       "group": 33,
-      "avg_view_counter": 1099,
+      "avg_view_counter": 1100,
       "avg_mylist_counter": 24,
       "median_view_counter": 518,
       "median_mylist_counter": 14
@@ -276,7 +276,7 @@
     },
     {
       "group": 39,
-      "avg_view_counter": 417,
+      "avg_view_counter": 418,
       "avg_mylist_counter": 20,
       "median_view_counter": 300,
       "median_mylist_counter": 14
@@ -292,12 +292,12 @@
       "group": 41,
       "avg_view_counter": 414,
       "avg_mylist_counter": 14,
-      "median_view_counter": 203,
+      "median_view_counter": 204,
       "median_mylist_counter": 10
     },
     {
       "group": 42,
-      "avg_view_counter": 438,
+      "avg_view_counter": 439,
       "avg_mylist_counter": 24,
       "median_view_counter": 237,
       "median_mylist_counter": 11
@@ -311,7 +311,7 @@
     },
     {
       "group": 44,
-      "avg_view_counter": 238,
+      "avg_view_counter": 239,
       "avg_mylist_counter": 12,
       "median_view_counter": 220,
       "median_mylist_counter": 10
@@ -339,7 +339,7 @@
     },
     {
       "group": 48,
-      "avg_view_counter": 926,
+      "avg_view_counter": 927,
       "avg_mylist_counter": 13,
       "median_view_counter": 276,
       "median_mylist_counter": 10
@@ -374,9 +374,9 @@
     },
     {
       "group": 53,
-      "avg_view_counter": 353,
+      "avg_view_counter": 354,
       "avg_mylist_counter": 13,
-      "median_view_counter": 229,
+      "median_view_counter": 230,
       "median_mylist_counter": 12
     },
     {
@@ -416,7 +416,7 @@
     },
     {
       "group": 59,
-      "avg_view_counter": 293,
+      "avg_view_counter": 294,
       "avg_mylist_counter": 11,
       "median_view_counter": 224,
       "median_mylist_counter": 10
@@ -437,14 +437,14 @@
     },
     {
       "group": 62,
-      "avg_view_counter": 445,
+      "avg_view_counter": 446,
       "avg_mylist_counter": 17,
       "median_view_counter": 278,
       "median_mylist_counter": 15
     },
     {
       "group": 63,
-      "avg_view_counter": 522,
+      "avg_view_counter": 523,
       "avg_mylist_counter": 17,
       "median_view_counter": 424,
       "median_mylist_counter": 14
