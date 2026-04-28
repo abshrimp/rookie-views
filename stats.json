@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T14:01:13.433Z",
+  "lastUpdated": "2026-04-28T14:09:20.410Z",
   "global": {
     "total_videos": 713,
     "avg_view_counter": 405,
@@ -10,21 +10,21 @@
   "stats": [
     {
       "group": 1,
-      "avg_view_counter": 887,
+      "avg_view_counter": 888,
       "avg_mylist_counter": 30,
       "median_view_counter": 687,
       "median_mylist_counter": 30
     },
     {
       "group": 2,
-      "avg_view_counter": 557,
+      "avg_view_counter": 558,
       "avg_mylist_counter": 21,
       "median_view_counter": 404,
       "median_mylist_counter": 20
     },
     {
       "group": 3,
-      "avg_view_counter": 663,
+      "avg_view_counter": 664,
       "avg_mylist_counter": 29,
       "median_view_counter": 566,
       "median_mylist_counter": 25
@@ -75,14 +75,14 @@
       "group": 10,
       "avg_view_counter": 362,
       "avg_mylist_counter": 15,
-      "median_view_counter": 313,
+      "median_view_counter": 314,
       "median_mylist_counter": 11
     },
     {
       "group": 11,
       "avg_view_counter": 278,
       "avg_mylist_counter": 12,
-      "median_view_counter": 224,
+      "median_view_counter": 225,
       "median_mylist_counter": 11
     },
     {
@@ -101,7 +101,7 @@
     },
     {
       "group": 14,
-      "avg_view_counter": 952,
+      "avg_view_counter": 953,
       "avg_mylist_counter": 36,
       "median_view_counter": 364,
       "median_mylist_counter": 22
@@ -166,12 +166,12 @@
       "group": 23,
       "avg_view_counter": 258,
       "avg_mylist_counter": 17,
-      "median_view_counter": 231,
+      "median_view_counter": 232,
       "median_mylist_counter": 15
     },
     {
       "group": 24,
-      "avg_view_counter": 471,
+      "avg_view_counter": 472,
       "avg_mylist_counter": 16,
       "median_view_counter": 191,
       "median_mylist_counter": 13
@@ -185,7 +185,7 @@
     },
     {
       "group": 26,
-      "avg_view_counter": 548,
+      "avg_view_counter": 549,
       "avg_mylist_counter": 17,
       "median_view_counter": 262,
       "median_mylist_counter": 14
@@ -234,9 +234,9 @@
     },
     {
       "group": 33,
-      "avg_view_counter": 1141,
+      "avg_view_counter": 1142,
       "avg_mylist_counter": 24,
-      "median_view_counter": 526,
+      "median_view_counter": 527,
       "median_mylist_counter": 14
     },
     {
@@ -304,7 +304,7 @@
     },
     {
       "group": 43,
-      "avg_view_counter": 393,
+      "avg_view_counter": 394,
       "avg_mylist_counter": 15,
       "median_view_counter": 196,
       "median_mylist_counter": 14
@@ -325,28 +325,28 @@
     },
     {
       "group": 46,
-      "avg_view_counter": 209,
+      "avg_view_counter": 210,
       "avg_mylist_counter": 13,
-      "median_view_counter": 210,
+      "median_view_counter": 211,
       "median_mylist_counter": 11
     },
     {
       "group": 47,
-      "avg_view_counter": 755,
+      "avg_view_counter": 756,
       "avg_mylist_counter": 27,
-      "median_view_counter": 259,
+      "median_view_counter": 260,
       "median_mylist_counter": 12
     },
     {
       "group": 48,
-      "avg_view_counter": 963,
+      "avg_view_counter": 964,
       "avg_mylist_counter": 13,
       "median_view_counter": 280,
       "median_mylist_counter": 10
     },
     {
       "group": 49,
-      "avg_view_counter": 169,
+      "avg_view_counter": 170,
       "avg_mylist_counter": 13,
       "median_view_counter": 175,
       "median_mylist_counter": 13
@@ -362,19 +362,19 @@
       "group": 51,
       "avg_view_counter": 239,
       "avg_mylist_counter": 13,
-      "median_view_counter": 214,
+      "median_view_counter": 215,
       "median_mylist_counter": 10
     },
     {
       "group": 52,
-      "avg_view_counter": 377,
+      "avg_view_counter": 378,
       "avg_mylist_counter": 15,
-      "median_view_counter": 275,
+      "median_view_counter": 276,
       "median_mylist_counter": 9
     },
     {
       "group": 53,
-      "avg_view_counter": 366,
+      "avg_view_counter": 367,
       "avg_mylist_counter": 13,
       "median_view_counter": 235,
       "median_mylist_counter": 12
@@ -395,7 +395,7 @@
     },
     {
       "group": 56,
-      "avg_view_counter": 252,
+      "avg_view_counter": 253,
       "avg_mylist_counter": 12,
       "median_view_counter": 169,
       "median_mylist_counter": 12
@@ -437,16 +437,16 @@
     },
     {
       "group": 62,
-      "avg_view_counter": 463,
+      "avg_view_counter": 465,
       "avg_mylist_counter": 17,
-      "median_view_counter": 282,
+      "median_view_counter": 283,
       "median_mylist_counter": 15
     },
     {
       "group": 63,
       "avg_view_counter": 540,
       "avg_mylist_counter": 17,
-      "median_view_counter": 441,
+      "median_view_counter": 442,
       "median_mylist_counter": 14
     },
     {
