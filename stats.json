@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T21:12:56.009Z",
+  "lastUpdated": "2026-04-30T21:19:09.389Z",
   "global": {
     "total_videos": 713,
     "avg_view_counter": 492,
@@ -10,9 +10,9 @@
   "stats": [
     {
       "group": 1,
-      "avg_view_counter": 1057,
+      "avg_view_counter": 1058,
       "avg_mylist_counter": 32,
-      "median_view_counter": 757,
+      "median_view_counter": 758,
       "median_mylist_counter": 32
     },
     {
@@ -185,7 +185,7 @@
     },
     {
       "group": 26,
-      "avg_view_counter": 763,
+      "avg_view_counter": 764,
       "avg_mylist_counter": 19,
       "median_view_counter": 309,
       "median_mylist_counter": 14
@@ -236,7 +236,7 @@
       "group": 33,
       "avg_view_counter": 1328,
       "avg_mylist_counter": 26,
-      "median_view_counter": 599,
+      "median_view_counter": 600,
       "median_mylist_counter": 15
     },
     {
@@ -255,9 +255,9 @@
     },
     {
       "group": 36,
-      "avg_view_counter": 677,
+      "avg_view_counter": 678,
       "avg_mylist_counter": 31,
-      "median_view_counter": 519,
+      "median_view_counter": 520,
       "median_mylist_counter": 20
     },
     {
@@ -353,7 +353,7 @@
     },
     {
       "group": 50,
-      "avg_view_counter": 394,
+      "avg_view_counter": 395,
       "avg_mylist_counter": 17,
       "median_view_counter": 273,
       "median_mylist_counter": 12
@@ -367,7 +367,7 @@
     },
     {
       "group": 52,
-      "avg_view_counter": 491,
+      "avg_view_counter": 492,
       "avg_mylist_counter": 18,
       "median_view_counter": 344,
       "median_mylist_counter": 11
@@ -395,7 +395,7 @@
     },
     {
       "group": 56,
-      "avg_view_counter": 297,
+      "avg_view_counter": 298,
       "avg_mylist_counter": 17,
       "median_view_counter": 219,
       "median_mylist_counter": 18
@@ -446,7 +446,7 @@
       "group": 63,
       "avg_view_counter": 657,
       "avg_mylist_counter": 21,
-      "median_view_counter": 642,
+      "median_view_counter": 643,
       "median_mylist_counter": 19
     },
     {
