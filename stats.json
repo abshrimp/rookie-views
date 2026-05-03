@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T07:36:05.084Z",
+  "lastUpdated": "2026-05-03T07:43:07.317Z",
   "global": {
     "total_videos": 713,
     "avg_view_counter": 546,
@@ -31,7 +31,7 @@
     },
     {
       "group": 4,
-      "avg_view_counter": 361,
+      "avg_view_counter": 362,
       "avg_mylist_counter": 18,
       "median_view_counter": 264,
       "median_mylist_counter": 16
@@ -59,7 +59,7 @@
     },
     {
       "group": 8,
-      "avg_view_counter": 676,
+      "avg_view_counter": 677,
       "avg_mylist_counter": 31,
       "median_view_counter": 408,
       "median_mylist_counter": 17
@@ -187,8 +187,8 @@
       "group": 26,
       "avg_view_counter": 875,
       "avg_mylist_counter": 21,
-      "median_view_counter": 363,
-      "median_mylist_counter": 16
+      "median_view_counter": 364,
+      "median_mylist_counter": 17
     },
     {
       "group": 27,
@@ -304,9 +304,9 @@
     },
     {
       "group": 43,
-      "avg_view_counter": 498,
+      "avg_view_counter": 500,
       "avg_mylist_counter": 18,
-      "median_view_counter": 276,
+      "median_view_counter": 278,
       "median_mylist_counter": 17
     },
     {
@@ -321,7 +321,7 @@
       "avg_view_counter": 679,
       "avg_mylist_counter": 19,
       "median_view_counter": 473,
-      "median_mylist_counter": 16
+      "median_mylist_counter": 17
     },
     {
       "group": 46,
@@ -332,7 +332,7 @@
     },
     {
       "group": 47,
-      "avg_view_counter": 961,
+      "avg_view_counter": 962,
       "avg_mylist_counter": 34,
       "median_view_counter": 352,
       "median_mylist_counter": 19
@@ -381,7 +381,7 @@
     },
     {
       "group": 54,
-      "avg_view_counter": 425,
+      "avg_view_counter": 426,
       "avg_mylist_counter": 15,
       "median_view_counter": 302,
       "median_mylist_counter": 13
@@ -446,7 +446,7 @@
       "group": 63,
       "avg_view_counter": 730,
       "avg_mylist_counter": 23,
-      "median_view_counter": 833,
+      "median_view_counter": 834,
       "median_mylist_counter": 19
     },
     {
