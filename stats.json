@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T04:55:17.485Z",
+  "lastUpdated": "2026-05-05T05:00:39.406Z",
   "global": {
     "total_videos": 713,
     "avg_view_counter": 581,
@@ -73,16 +73,16 @@
     },
     {
       "group": 10,
-      "avg_view_counter": 518,
+      "avg_view_counter": 519,
       "avg_mylist_counter": 18,
       "median_view_counter": 416,
       "median_mylist_counter": 14
     },
     {
       "group": 11,
-      "avg_view_counter": 468,
+      "avg_view_counter": 469,
       "avg_mylist_counter": 18,
-      "median_view_counter": 385,
+      "median_view_counter": 386,
       "median_mylist_counter": 17
     },
     {
@@ -110,7 +110,7 @@
       "group": 15,
       "avg_view_counter": 611,
       "avg_mylist_counter": 16,
-      "median_view_counter": 305,
+      "median_view_counter": 306,
       "median_mylist_counter": 14
     },
     {
@@ -145,7 +145,7 @@
       "group": 20,
       "avg_view_counter": 331,
       "avg_mylist_counter": 20,
-      "median_view_counter": 301,
+      "median_view_counter": 302,
       "median_mylist_counter": 19
     },
     {
@@ -311,7 +311,7 @@
     },
     {
       "group": 44,
-      "avg_view_counter": 358,
+      "avg_view_counter": 359,
       "avg_mylist_counter": 17,
       "median_view_counter": 347,
       "median_mylist_counter": 13
@@ -320,8 +320,8 @@
       "group": 45,
       "avg_view_counter": 720,
       "avg_mylist_counter": 21,
-      "median_view_counter": 513,
-      "median_mylist_counter": 17
+      "median_view_counter": 514,
+      "median_mylist_counter": 18
     },
     {
       "group": 46,
@@ -355,7 +355,7 @@
       "group": 50,
       "avg_view_counter": 465,
       "avg_mylist_counter": 19,
-      "median_view_counter": 326,
+      "median_view_counter": 327,
       "median_mylist_counter": 13
     },
     {
@@ -465,7 +465,7 @@
     },
     {
       "group": 66,
-      "avg_view_counter": 324,
+      "avg_view_counter": 325,
       "avg_mylist_counter": 13,
       "median_view_counter": 329,
       "median_mylist_counter": 10
