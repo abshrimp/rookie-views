@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T10:30:51.802Z",
+  "lastUpdated": "2026-05-07T10:37:31.668Z",
   "global": {
     "total_videos": 713,
     "avg_view_counter": 628,
@@ -10,7 +10,7 @@
   "stats": [
     {
       "group": 1,
-      "avg_view_counter": 1256,
+      "avg_view_counter": 1257,
       "avg_mylist_counter": 36,
       "median_view_counter": 917,
       "median_mylist_counter": 37
@@ -101,7 +101,7 @@
     },
     {
       "group": 14,
-      "avg_view_counter": 1260,
+      "avg_view_counter": 1261,
       "avg_mylist_counter": 46,
       "median_view_counter": 510,
       "median_mylist_counter": 34
@@ -327,7 +327,7 @@
       "group": 46,
       "avg_view_counter": 380,
       "avg_mylist_counter": 18,
-      "median_view_counter": 386,
+      "median_view_counter": 387,
       "median_mylist_counter": 17
     },
     {
@@ -348,7 +348,7 @@
       "group": 49,
       "avg_view_counter": 294,
       "avg_mylist_counter": 17,
-      "median_view_counter": 285,
+      "median_view_counter": 286,
       "median_mylist_counter": 16
     },
     {
@@ -367,8 +367,8 @@
     },
     {
       "group": 52,
-      "avg_view_counter": 661,
-      "avg_mylist_counter": 21,
+      "avg_view_counter": 662,
+      "avg_mylist_counter": 22,
       "median_view_counter": 487,
       "median_mylist_counter": 13
     },
@@ -381,9 +381,9 @@
     },
     {
       "group": 54,
-      "avg_view_counter": 516,
+      "avg_view_counter": 517,
       "avg_mylist_counter": 20,
-      "median_view_counter": 377,
+      "median_view_counter": 378,
       "median_mylist_counter": 20
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "group": 57,
-      "avg_view_counter": 289,
+      "avg_view_counter": 290,
       "avg_mylist_counter": 15,
       "median_view_counter": 289,
       "median_mylist_counter": 14
@@ -423,7 +423,7 @@
     },
     {
       "group": 60,
-      "avg_view_counter": 698,
+      "avg_view_counter": 699,
       "avg_mylist_counter": 22,
       "median_view_counter": 334,
       "median_mylist_counter": 16
