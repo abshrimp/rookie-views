@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-08T08:36:45.068Z",
+  "lastUpdated": "2026-05-08T08:43:07.400Z",
   "global": {
     "total_videos": 713,
-    "avg_view_counter": 642,
+    "avg_view_counter": 643,
     "median_view_counter": 406,
     "avg_mylist_counter": 23,
     "median_mylist_counter": 18
@@ -26,7 +26,7 @@
       "group": 3,
       "avg_view_counter": 952,
       "avg_mylist_counter": 37,
-      "median_view_counter": 814,
+      "median_view_counter": 815,
       "median_mylist_counter": 32
     },
     {
@@ -215,7 +215,7 @@
       "group": 30,
       "avg_view_counter": 413,
       "avg_mylist_counter": 25,
-      "median_view_counter": 348,
+      "median_view_counter": 349,
       "median_mylist_counter": 27
     },
     {
@@ -234,7 +234,7 @@
     },
     {
       "group": 33,
-      "avg_view_counter": 1488,
+      "avg_view_counter": 1489,
       "avg_mylist_counter": 34,
       "median_view_counter": 781,
       "median_mylist_counter": 21
@@ -264,7 +264,7 @@
       "group": 37,
       "avg_view_counter": 478,
       "avg_mylist_counter": 25,
-      "median_view_counter": 346,
+      "median_view_counter": 347,
       "median_mylist_counter": 19
     },
     {
@@ -297,7 +297,7 @@
     },
     {
       "group": 42,
-      "avg_view_counter": 719,
+      "avg_view_counter": 720,
       "avg_mylist_counter": 34,
       "median_view_counter": 403,
       "median_mylist_counter": 16
@@ -395,7 +395,7 @@
     },
     {
       "group": 56,
-      "avg_view_counter": 418,
+      "avg_view_counter": 419,
       "avg_mylist_counter": 20,
       "median_view_counter": 343,
       "median_mylist_counter": 22
@@ -481,12 +481,12 @@
       "group": 68,
       "avg_view_counter": 768,
       "avg_mylist_counter": 37,
-      "median_view_counter": 411,
+      "median_view_counter": 412,
       "median_mylist_counter": 26
     },
     {
       "group": 69,
-      "avg_view_counter": 467,
+      "avg_view_counter": 468,
       "avg_mylist_counter": 20,
       "median_view_counter": 365,
       "median_mylist_counter": 17
