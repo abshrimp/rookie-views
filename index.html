@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disc別 再生数データ</title>
+    <title>Selection別 再生数データ</title>
     <style>
         body { font-family: sans-serif; margin: 20px; color: #333; font-size: 14px; }
         h1 { font-size: 1.6em; margin-bottom: 10px; }
@@ -40,7 +40,7 @@
 </head>
 <body>
 
-    <h1>Disc別 再生数データ</h1>
+    <h1>Selection別 再生数データ</h1>
     <div class="update-time" id="update-time">最終更新: 読み込み中...</div>
 
     <div class="global-stats-box" id="global-stats-box" style="display: none;"></div>
@@ -48,7 +48,7 @@
     <table>
         <thead>
             <tr>
-                <th onclick="sortData('group')">Disc <span id="icon-group" class="sort-icon"></span></th>
+                <th onclick="sortData('group')">Selec. <span id="icon-group" class="sort-icon"></span></th>
                 <th onclick="sortData('avg_view_counter')">平均再生 <span id="icon-avg_view_counter" class="sort-icon"></span></th>
                 <th onclick="sortData('median_view_counter')">中央値 <span id="icon-median_view_counter" class="sort-icon"></span></th>
                 <th onclick="sortData('avg_mylist_counter')">平均マイリス <span id="icon-avg_mylist_counter" class="sort-icon"></span></th>
