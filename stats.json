@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-05-11T02:15:25.156Z",
+  "lastUpdated": "2026-05-11T02:21:33.927Z",
   "global": {
     "total_videos": 350,
     "avg_view_counter": 917,
-    "median_view_counter": 601,
-    "avg_mylist_counter": 38,
+    "median_view_counter": 602,
+    "avg_mylist_counter": 39,
     "median_mylist_counter": 33
   },
   "stats": [
     {
       "group": 1,
-      "avg_view_counter": 985,
+      "avg_view_counter": 986,
       "avg_mylist_counter": 38,
-      "median_view_counter": 646,
+      "median_view_counter": 647,
       "median_mylist_counter": 32
     },
     {
@@ -20,13 +20,13 @@
       "avg_view_counter": 790,
       "avg_mylist_counter": 38,
       "median_view_counter": 596,
-      "median_mylist_counter": 37
+      "median_mylist_counter": 36
     },
     {
       "group": 3,
-      "avg_view_counter": 963,
+      "avg_view_counter": 965,
       "avg_mylist_counter": 40,
-      "median_view_counter": 676,
+      "median_view_counter": 678,
       "median_mylist_counter": 36
     },
     {
@@ -48,7 +48,7 @@
       "avg_view_counter": 690,
       "avg_mylist_counter": 39,
       "median_view_counter": 553,
-      "median_mylist_counter": 35
+      "median_mylist_counter": 34
     },
     {
       "group": 7,
@@ -75,7 +75,7 @@
       "group": 10,
       "avg_view_counter": 1154,
       "avg_mylist_counter": 45,
-      "median_view_counter": 628,
+      "median_view_counter": 629,
       "median_mylist_counter": 36
     },
     {
@@ -94,16 +94,16 @@
     },
     {
       "group": 13,
-      "avg_view_counter": 727,
+      "avg_view_counter": 728,
       "avg_mylist_counter": 33,
-      "median_view_counter": 507,
+      "median_view_counter": 508,
       "median_mylist_counter": 32
     },
     {
       "group": 14,
-      "avg_view_counter": 891,
+      "avg_view_counter": 892,
       "avg_mylist_counter": 37,
-      "median_view_counter": 646,
+      "median_view_counter": 647,
       "median_mylist_counter": 35
     },
     {
@@ -144,16 +144,16 @@
     {
       "group": 20,
       "avg_view_counter": 619,
-      "avg_mylist_counter": 31,
-      "median_view_counter": 588,
-      "median_mylist_counter": 25
+      "avg_mylist_counter": 32,
+      "median_view_counter": 589,
+      "median_mylist_counter": 26
     },
     {
       "group": 21,
-      "avg_view_counter": 811,
+      "avg_view_counter": 812,
       "avg_mylist_counter": 41,
-      "median_view_counter": 645,
-      "median_mylist_counter": 30
+      "median_view_counter": 646,
+      "median_mylist_counter": 31
     },
     {
       "group": 22,
@@ -171,17 +171,17 @@
     },
     {
       "group": 24,
-      "avg_view_counter": 1108,
+      "avg_view_counter": 1109,
       "avg_mylist_counter": 30,
       "median_view_counter": 470,
       "median_mylist_counter": 31
     },
     {
       "group": 25,
-      "avg_view_counter": 1417,
-      "avg_mylist_counter": 50,
-      "median_view_counter": 508,
-      "median_mylist_counter": 24
+      "avg_view_counter": 1418,
+      "avg_mylist_counter": 51,
+      "median_view_counter": 509,
+      "median_mylist_counter": 25
     },
     {
       "group": 26,
@@ -193,13 +193,13 @@
     {
       "group": 27,
       "avg_view_counter": 666,
-      "avg_mylist_counter": 36,
+      "avg_mylist_counter": 37,
       "median_view_counter": 458,
-      "median_mylist_counter": 26
+      "median_mylist_counter": 27
     },
     {
       "group": 28,
-      "avg_view_counter": 875,
+      "avg_view_counter": 876,
       "avg_mylist_counter": 33,
       "median_view_counter": 736,
       "median_mylist_counter": 32
@@ -209,14 +209,14 @@
       "avg_view_counter": 619,
       "avg_mylist_counter": 27,
       "median_view_counter": 581,
-      "median_mylist_counter": 23
+      "median_mylist_counter": 24
     },
     {
       "group": 30,
-      "avg_view_counter": 673,
+      "avg_view_counter": 674,
       "avg_mylist_counter": 28,
-      "median_view_counter": 487,
-      "median_mylist_counter": 27
+      "median_view_counter": 488,
+      "median_mylist_counter": 28
     },
     {
       "group": 31,
