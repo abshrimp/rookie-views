@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T13:09:07.440Z",
+  "lastUpdated": "2026-05-13T13:15:26.499Z",
   "global": {
     "total_videos": 350,
     "avg_view_counter": 984,
@@ -45,9 +45,9 @@
     },
     {
       "group": 6,
-      "avg_view_counter": 747,
+      "avg_view_counter": 748,
       "avg_mylist_counter": 43,
-      "median_view_counter": 631,
+      "median_view_counter": 632,
       "median_mylist_counter": 40
     },
     {
@@ -67,15 +67,15 @@
     {
       "group": 9,
       "avg_view_counter": 1373,
-      "avg_mylist_counter": 45,
+      "avg_mylist_counter": 46,
       "median_view_counter": 587,
-      "median_mylist_counter": 30
+      "median_mylist_counter": 31
     },
     {
       "group": 10,
       "avg_view_counter": 1211,
       "avg_mylist_counter": 47,
-      "median_view_counter": 691,
+      "median_view_counter": 692,
       "median_mylist_counter": 41
     },
     {
@@ -108,7 +108,7 @@
     },
     {
       "group": 15,
-      "avg_view_counter": 908,
+      "avg_view_counter": 909,
       "avg_mylist_counter": 44,
       "median_view_counter": 636,
       "median_mylist_counter": 37
@@ -143,14 +143,14 @@
     },
     {
       "group": 20,
-      "avg_view_counter": 650,
-      "avg_mylist_counter": 31,
+      "avg_view_counter": 651,
+      "avg_mylist_counter": 32,
       "median_view_counter": 619,
       "median_mylist_counter": 26
     },
     {
       "group": 21,
-      "avg_view_counter": 866,
+      "avg_view_counter": 867,
       "avg_mylist_counter": 41,
       "median_view_counter": 676,
       "median_mylist_counter": 30
@@ -180,7 +180,7 @@
       "group": 25,
       "avg_view_counter": 1489,
       "avg_mylist_counter": 53,
-      "median_view_counter": 551,
+      "median_view_counter": 552,
       "median_mylist_counter": 26
     },
     {
@@ -241,7 +241,7 @@
     },
     {
       "group": 34,
-      "avg_view_counter": 1164,
+      "avg_view_counter": 1165,
       "avg_mylist_counter": 45,
       "median_view_counter": 856,
       "median_mylist_counter": 38
