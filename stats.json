@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T13:15:05.869Z",
+  "lastUpdated": "2026-05-15T13:21:07.703Z",
   "global": {
     "total_videos": 350,
     "avg_view_counter": 1026,
@@ -17,9 +17,9 @@
     },
     {
       "group": 2,
-      "avg_view_counter": 894,
+      "avg_view_counter": 895,
       "avg_mylist_counter": 41,
-      "median_view_counter": 691,
+      "median_view_counter": 692,
       "median_mylist_counter": 40
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "group": 7,
-      "avg_view_counter": 941,
+      "avg_view_counter": 942,
       "avg_mylist_counter": 39,
       "median_view_counter": 729,
       "median_mylist_counter": 42
