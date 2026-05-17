@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T10:09:07.651Z",
+  "lastUpdated": "2026-05-17T10:15:41.658Z",
   "global": {
     "total_videos": 350,
     "avg_view_counter": 1058,
@@ -10,7 +10,7 @@
   "stats": [
     {
       "group": 1,
-      "avg_view_counter": 1179,
+      "avg_view_counter": 1180,
       "avg_mylist_counter": 43,
       "median_view_counter": 802,
       "median_mylist_counter": 36
@@ -52,16 +52,16 @@
     },
     {
       "group": 7,
-      "avg_view_counter": 963,
+      "avg_view_counter": 964,
       "avg_mylist_counter": 40,
       "median_view_counter": 754,
-      "median_mylist_counter": 41
+      "median_mylist_counter": 42
     },
     {
       "group": 8,
       "avg_view_counter": 1396,
       "avg_mylist_counter": 49,
-      "median_view_counter": 638,
+      "median_view_counter": 639,
       "median_mylist_counter": 35
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       "group": 10,
-      "avg_view_counter": 1284,
+      "avg_view_counter": 1285,
       "avg_mylist_counter": 49,
       "median_view_counter": 781,
       "median_mylist_counter": 44
@@ -108,7 +108,7 @@
     },
     {
       "group": 15,
-      "avg_view_counter": 949,
+      "avg_view_counter": 950,
       "avg_mylist_counter": 44,
       "median_view_counter": 682,
       "median_mylist_counter": 37
@@ -166,7 +166,7 @@
       "group": 23,
       "avg_view_counter": 971,
       "avg_mylist_counter": 40,
-      "median_view_counter": 822,
+      "median_view_counter": 823,
       "median_mylist_counter": 37
     },
     {
@@ -194,7 +194,7 @@
       "group": 27,
       "avg_view_counter": 757,
       "avg_mylist_counter": 39,
-      "median_view_counter": 540,
+      "median_view_counter": 541,
       "median_mylist_counter": 27
     },
     {
@@ -206,9 +206,9 @@
     },
     {
       "group": 29,
-      "avg_view_counter": 752,
+      "avg_view_counter": 753,
       "avg_mylist_counter": 28,
-      "median_view_counter": 667,
+      "median_view_counter": 668,
       "median_mylist_counter": 25
     },
     {
