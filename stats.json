@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T09:27:47.733Z",
+  "lastUpdated": "2026-05-19T09:33:41.260Z",
   "global": {
     "total_videos": 350,
     "avg_view_counter": 1084,
@@ -60,13 +60,13 @@
     {
       "group": 8,
       "avg_view_counter": 1420,
-      "avg_mylist_counter": 48,
-      "median_view_counter": 661,
+      "avg_mylist_counter": 49,
+      "median_view_counter": 662,
       "median_mylist_counter": 34
     },
     {
       "group": 9,
-      "avg_view_counter": 1515,
+      "avg_view_counter": 1516,
       "avg_mylist_counter": 46,
       "median_view_counter": 686,
       "median_mylist_counter": 32
@@ -87,7 +87,7 @@
     },
     {
       "group": 12,
-      "avg_view_counter": 1233,
+      "avg_view_counter": 1234,
       "avg_mylist_counter": 40,
       "median_view_counter": 933,
       "median_mylist_counter": 38
@@ -101,7 +101,7 @@
     },
     {
       "group": 14,
-      "avg_view_counter": 1040,
+      "avg_view_counter": 1041,
       "avg_mylist_counter": 37,
       "median_view_counter": 766,
       "median_mylist_counter": 35
@@ -129,9 +129,9 @@
     },
     {
       "group": 18,
-      "avg_view_counter": 1176,
+      "avg_view_counter": 1177,
       "avg_mylist_counter": 45,
-      "median_view_counter": 1246,
+      "median_view_counter": 1247,
       "median_mylist_counter": 41
     },
     {
@@ -178,9 +178,9 @@
     },
     {
       "group": 25,
-      "avg_view_counter": 1583,
+      "avg_view_counter": 1584,
       "avg_mylist_counter": 54,
-      "median_view_counter": 600,
+      "median_view_counter": 601,
       "median_mylist_counter": 25
     },
     {
@@ -201,7 +201,7 @@
       "group": 28,
       "avg_view_counter": 1123,
       "avg_mylist_counter": 35,
-      "median_view_counter": 971,
+      "median_view_counter": 972,
       "median_mylist_counter": 34
     },
     {
@@ -243,7 +243,7 @@
       "group": 34,
       "avg_view_counter": 1404,
       "avg_mylist_counter": 48,
-      "median_view_counter": 985,
+      "median_view_counter": 986,
       "median_mylist_counter": 38
     },
     {
