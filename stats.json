@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T15:39:21.978Z",
+  "lastUpdated": "2026-05-22T15:45:29.263Z",
   "global": {
     "total_videos": 350,
     "avg_view_counter": 1125,
@@ -12,8 +12,8 @@
       "group": 1,
       "avg_view_counter": 1265,
       "avg_mylist_counter": 43,
-      "median_view_counter": 873,
-      "median_mylist_counter": 35
+      "median_view_counter": 874,
+      "median_mylist_counter": 36
     },
     {
       "group": 2,
@@ -26,7 +26,7 @@
       "group": 3,
       "avg_view_counter": 1309,
       "avg_mylist_counter": 42,
-      "median_view_counter": 886,
+      "median_view_counter": 887,
       "median_mylist_counter": 39
     },
     {
@@ -40,7 +40,7 @@
       "group": 5,
       "avg_view_counter": 975,
       "avg_mylist_counter": 48,
-      "median_view_counter": 897,
+      "median_view_counter": 898,
       "median_mylist_counter": 51
     },
     {
@@ -82,7 +82,7 @@
       "group": 11,
       "avg_view_counter": 1658,
       "avg_mylist_counter": 46,
-      "median_view_counter": 1269,
+      "median_view_counter": 1270,
       "median_mylist_counter": 45
     },
     {
@@ -122,9 +122,9 @@
     },
     {
       "group": 17,
-      "avg_view_counter": 1257,
+      "avg_view_counter": 1258,
       "avg_mylist_counter": 40,
-      "median_view_counter": 763,
+      "median_view_counter": 764,
       "median_mylist_counter": 35
     },
     {
@@ -145,7 +145,7 @@
       "group": 20,
       "avg_view_counter": 742,
       "avg_mylist_counter": 32,
-      "median_view_counter": 709,
+      "median_view_counter": 710,
       "median_mylist_counter": 26
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "group": 22,
-      "avg_view_counter": 831,
+      "avg_view_counter": 832,
       "avg_mylist_counter": 35,
       "median_view_counter": 659,
       "median_mylist_counter": 31
@@ -234,7 +234,7 @@
     },
     {
       "group": 33,
-      "avg_view_counter": 807,
+      "avg_view_counter": 808,
       "avg_mylist_counter": 34,
       "median_view_counter": 762,
       "median_mylist_counter": 31
