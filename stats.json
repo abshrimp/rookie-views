@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T15:09:44.825Z",
+  "lastUpdated": "2026-05-22T15:15:44.488Z",
   "global": {
     "total_videos": 350,
     "avg_view_counter": 1124,
@@ -10,7 +10,7 @@
   "stats": [
     {
       "group": 1,
-      "avg_view_counter": 1263,
+      "avg_view_counter": 1264,
       "avg_mylist_counter": 43,
       "median_view_counter": 872,
       "median_mylist_counter": 35
@@ -80,7 +80,7 @@
     },
     {
       "group": 11,
-      "avg_view_counter": 1657,
+      "avg_view_counter": 1658,
       "avg_mylist_counter": 46,
       "median_view_counter": 1269,
       "median_mylist_counter": 45
@@ -88,7 +88,7 @@
     {
       "group": 12,
       "avg_view_counter": 1261,
-      "avg_mylist_counter": 40,
+      "avg_mylist_counter": 41,
       "median_view_counter": 967,
       "median_mylist_counter": 38
     },
@@ -103,7 +103,7 @@
       "group": 14,
       "avg_view_counter": 1070,
       "avg_mylist_counter": 38,
-      "median_view_counter": 788,
+      "median_view_counter": 789,
       "median_mylist_counter": 36
     },
     {
@@ -145,7 +145,7 @@
       "group": 20,
       "avg_view_counter": 741,
       "avg_mylist_counter": 32,
-      "median_view_counter": 708,
+      "median_view_counter": 709,
       "median_mylist_counter": 26
     },
     {
@@ -164,9 +164,9 @@
     },
     {
       "group": 23,
-      "avg_view_counter": 1027,
+      "avg_view_counter": 1028,
       "avg_mylist_counter": 41,
-      "median_view_counter": 877,
+      "median_view_counter": 878,
       "median_mylist_counter": 36
     },
     {
@@ -178,16 +178,16 @@
     },
     {
       "group": 25,
-      "avg_view_counter": 1641,
+      "avg_view_counter": 1642,
       "avg_mylist_counter": 55,
       "median_view_counter": 630,
       "median_mylist_counter": 25
     },
     {
       "group": 26,
-      "avg_view_counter": 625,
+      "avg_view_counter": 626,
       "avg_mylist_counter": 31,
-      "median_view_counter": 644,
+      "median_view_counter": 646,
       "median_mylist_counter": 30
     },
     {
