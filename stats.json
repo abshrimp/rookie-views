@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T03:39:10.573Z",
+  "lastUpdated": "2026-05-23T03:45:36.946Z",
   "global": {
     "total_videos": 350,
     "avg_view_counter": 1135,
@@ -33,7 +33,7 @@
       "group": 4,
       "avg_view_counter": 1258,
       "avg_mylist_counter": 47,
-      "median_view_counter": 740,
+      "median_view_counter": 741,
       "median_mylist_counter": 42
     },
     {
@@ -115,9 +115,9 @@
     },
     {
       "group": 16,
-      "avg_view_counter": 1540,
+      "avg_view_counter": 1541,
       "avg_mylist_counter": 51,
-      "median_view_counter": 733,
+      "median_view_counter": 734,
       "median_mylist_counter": 36
     },
     {
@@ -136,9 +136,9 @@
     },
     {
       "group": 19,
-      "avg_view_counter": 1095,
+      "avg_view_counter": 1096,
       "avg_mylist_counter": 43,
-      "median_view_counter": 757,
+      "median_view_counter": 758,
       "median_mylist_counter": 40
     },
     {
@@ -151,13 +151,13 @@
     {
       "group": 21,
       "avg_view_counter": 1064,
-      "avg_mylist_counter": 43,
+      "avg_mylist_counter": 44,
       "median_view_counter": 858,
       "median_mylist_counter": 31
     },
     {
       "group": 22,
-      "avg_view_counter": 836,
+      "avg_view_counter": 837,
       "avg_mylist_counter": 35,
       "median_view_counter": 664,
       "median_mylist_counter": 31
@@ -192,7 +192,7 @@
     },
     {
       "group": 27,
-      "avg_view_counter": 815,
+      "avg_view_counter": 816,
       "avg_mylist_counter": 40,
       "median_view_counter": 589,
       "median_mylist_counter": 28
@@ -220,15 +220,15 @@
     },
     {
       "group": 31,
-      "avg_view_counter": 1149,
+      "avg_view_counter": 1150,
       "avg_mylist_counter": 44,
-      "median_view_counter": 749,
+      "median_view_counter": 750,
       "median_mylist_counter": 43
     },
     {
       "group": 32,
       "avg_view_counter": 966,
-      "avg_mylist_counter": 36,
+      "avg_mylist_counter": 37,
       "median_view_counter": 847,
       "median_mylist_counter": 34
     },
