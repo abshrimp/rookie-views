@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-05T13:45:37.436Z",
+  "lastUpdated": "2026-06-05T13:51:55.082Z",
   "global": {
     "total_videos": 350,
-    "avg_view_counter": 1228,
+    "avg_view_counter": 1229,
     "median_view_counter": 826,
     "avg_mylist_counter": 43,
     "median_mylist_counter": 35
@@ -89,7 +89,7 @@
       "group": 12,
       "avg_view_counter": 1354,
       "avg_mylist_counter": 44,
-      "median_view_counter": 1135,
+      "median_view_counter": 1136,
       "median_mylist_counter": 40
     },
     {
@@ -103,7 +103,7 @@
       "group": 14,
       "avg_view_counter": 1171,
       "avg_mylist_counter": 41,
-      "median_view_counter": 860,
+      "median_view_counter": 861,
       "median_mylist_counter": 37
     },
     {
@@ -129,7 +129,7 @@
     },
     {
       "group": 18,
-      "avg_view_counter": 1345,
+      "avg_view_counter": 1346,
       "avg_mylist_counter": 48,
       "median_view_counter": 1337,
       "median_mylist_counter": 44
@@ -143,7 +143,7 @@
     },
     {
       "group": 20,
-      "avg_view_counter": 814,
+      "avg_view_counter": 815,
       "avg_mylist_counter": 33,
       "median_view_counter": 762,
       "median_mylist_counter": 27
@@ -157,7 +157,7 @@
     },
     {
       "group": 22,
-      "avg_view_counter": 919,
+      "avg_view_counter": 920,
       "avg_mylist_counter": 37,
       "median_view_counter": 727,
       "median_mylist_counter": 33
@@ -208,12 +208,12 @@
       "group": 29,
       "avg_view_counter": 885,
       "avg_mylist_counter": 28,
-      "median_view_counter": 840,
+      "median_view_counter": 841,
       "median_mylist_counter": 24
     },
     {
       "group": 30,
-      "avg_view_counter": 877,
+      "avg_view_counter": 878,
       "avg_mylist_counter": 30,
       "median_view_counter": 676,
       "median_mylist_counter": 29
@@ -248,7 +248,7 @@
     },
     {
       "group": 35,
-      "avg_view_counter": 1344,
+      "avg_view_counter": 1345,
       "avg_mylist_counter": 49,
       "median_view_counter": 1064,
       "median_mylist_counter": 45
